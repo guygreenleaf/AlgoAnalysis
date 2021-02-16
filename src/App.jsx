@@ -9,6 +9,9 @@ import StatsMode from "./StatsMode";
 import Fibonacci from "./Fibonacci";
 import Exponentials from "./Exponentials";
 import Sorters from "./Sorters";
+import FibonacciStats from './FibonacciStats'
+import ExponentialStats from './ExponentialStats'
+import SorterStats from './SorterStats'
 
 function App() {
   return (
@@ -19,8 +22,11 @@ function App() {
           <Route path="/statsMode" component={StatsMode} exact />
 
           <Route path="/fibonacci" component={Fibonacci} exact />
-
           <Route path="/exponentials" component={Exponentials} exact />
+
+          <Route path="/fibonacciStats" component={FibonacciStats} exact />
+          <Route path="/exponentialStats" component={ExponentialStats} exact />
+          <Route path="/sortersStats" component={SorterStats} exact />
 
           <Route path="/sorters" component={Sorters} exact />
           <Route path="/" component={Landing} />

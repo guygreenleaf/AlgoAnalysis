@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MDBBtn } from "mdbreact";
+import {Line} from 'react-chartjs-2'
+
 
 function Fibonacci() {
   let [computation, compute] = useState(0);
   let [fiboToCompute, changeNum] = useState(0);
 
+
+  
   let fibo = (number) => {
     if (number <= 2) {
       return 1;
@@ -36,6 +40,8 @@ function Fibonacci() {
         </MDBBtn>
       </form>
       <h1>{computation}</h1>
+
+
     </div>
   );
 }
