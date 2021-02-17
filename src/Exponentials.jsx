@@ -36,6 +36,7 @@ function Exponentials() {
             return 1
         }
         if(n%2 === 0){
+          //OR 2*exponentialThree(a, n/2)
             return exponentialThree(a, n/2) * exponentialThree(a, n/2)
         }
         if(n%2 !== 0){
