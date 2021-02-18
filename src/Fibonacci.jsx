@@ -43,7 +43,7 @@ function Fibonacci() {
         </label>
         <input
           type="number"
-          //Forgot to parseInt here initially, gave me a huge headache!
+          //Forgot to parseInt here initially, gave me a huge headache
           onChange={(e) => changeNum(parseInt(e.target.value))}
           value={fiboToCompute}
         />
