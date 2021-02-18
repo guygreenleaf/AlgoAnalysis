@@ -135,7 +135,6 @@ function FibonacciStats() {
       ],
     });
   };
-
   // useEffect(() => {
   //   chart();
   // }, []);
