@@ -53,9 +53,9 @@ function Fibonacci() {
         </MDBBtn>
       </form>
 
-      <h1>{computation}</h1>
-      <h1>{fiboPlusOne}</h1>
-      <h1>Euclid GCD: {euclid}</h1>
+      <h1>Fibonacci of {fiboToCompute} : {computation}</h1>
+      
+      <h1>Euclid GCD({computation}, {fiboPlusOne}): {euclid}</h1>
     </div>
   );
 }
