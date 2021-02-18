@@ -9,9 +9,9 @@ import StatsMode from "./StatsMode";
 import Fibonacci from "./Fibonacci";
 import Exponentials from "./Exponentials";
 import Sorters from "./Sorters";
-import FibonacciStats from './FibonacciStats'
-import ExponentialStats from './ExponentialStats'
-import SorterStats from './SorterStats'
+import FibonacciStats from "./FibonacciStats";
+import ExponentialStats from "./ExponentialStats";
+import SorterStats from "./SorterStats";
 
 function App() {
   return (
